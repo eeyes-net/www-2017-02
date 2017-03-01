@@ -145,17 +145,12 @@ a:hover {
     margin: 70px auto 0 auto;
     border: 4px solid #4c4c4c;
     border-radius: 10px;
-
     font-size: 16px;
     font-weight: bold;
     text-align: center;
     line-height: 64px;
     color: #4c4c4c;
     cursor: pointer;
-}
-
-.about-us .show-product:hover {
-    background-color: #fcfcfc;
 }
 
 
@@ -181,6 +176,7 @@ a:hover {
     overflow: hidden;
 } 
 
+
 .about-us .intro-image .img-wrap img {
     width: 100%;
     height: 100%;
@@ -197,6 +193,9 @@ a:hover {
     clear: left;
     margin-left: -2px;
 }
+.about-us .intro-image .intro-IEEE {
+    clear: left;
+}
 
 .about-us .intro-image .intro-yzbs {
     clear: left;
@@ -205,7 +204,8 @@ a:hover {
 
 .about-us .intro-image .intro-square, 
 .about-us .intro-image .youth-img-wrap, 
-.about-us .intro-image .eux-img-wrap {
+.about-us .intro-image .eux-img-wrap,
+.about-us .intro-image .download-img-wrap {
     margin: 0;
 }
 
@@ -213,7 +213,7 @@ a:hover {
 
 .our-team {
     position: absolute;
-    top: 2527px;
+    top: 2900px;
     text-align: center;
     width: 100%;
 }
@@ -236,7 +236,6 @@ a:hover {
 
 .our-team .show-team .team-list .big-team {
     float: left;
-
     width: 224px;
     height: 68px;
     margin: 0px 24px 0 24px;
@@ -277,6 +276,7 @@ a:hover {
     line-height: 59px;
     background-color: #e9e9e9;
 }
+
 .our-team .show-team .team-list .big-team .small-list li img {
     vertical-align: middle;
 }
@@ -363,7 +363,7 @@ a:hover {
 }
 .presence {
     position: absolute;
-    top: 3566px;
+    top: 3980px;
     text-align: center;
     width: 100%;
     height: 1122px;
@@ -427,12 +427,12 @@ a:hover {
     background-position: center;
 
     position: absolute;
-    top: 4704px;
+    top: 5123px;
 }
 
 .bottom-list {
     position: absolute;
-    top: 4832px;
+    top: 5250px;
 
     width: 100%;
     height: 416px;
@@ -544,12 +544,17 @@ a:hover {
 
 .bottom-copyright {
     position: absolute;
-    top: 5248px;
+    top: 5666px;
 
     width: 100%;
     height: 160px;
     background-color: #e0e0e0;   
     text-align: center;
+}
+
+.bottom-copyright .eeyes-link {
+    color: #4c4c4c;
+    text-decoration: underline;
 }
 
 .bottom-copyright ul {
